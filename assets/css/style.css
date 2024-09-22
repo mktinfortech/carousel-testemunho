@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.depoimentos{
+    width: 100%;
+    padding: 40px 20px;
+    max-width: 56.25rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.depoimentos .slides{
+    padding: 40px 60px;
+    cursor: grab;
+}
+.depoimentos .slides:active{
+    cursor: grabbing;
+}
+.depoimentos i{
+    font-size: 2.60em;
+    color: rgba(0, 195, 255, 0.384);
+}
+.depoimentos p.txt-depo{
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.slides .pessoa img{
+    width: 5.80rem;
+    height: 5.50rem;
+    border-radius: 100%;
+}
+.pessoa{
+    display: flex;
+    align-items: center;  
+}
+.infor-pessoa{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.infor-pessoa .nome-pessoa{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+
